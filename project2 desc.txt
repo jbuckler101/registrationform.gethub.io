@@ -1,0 +1,80 @@
+PROJECT DESCRIPTION
+One of the most common uses of client-side JavaScript is to validate form data. When we say "validate" form data, we mean ensuring that the data entered is clean, error free, formatted correctly, and meets certain criterion. The validation of input data is crucial because it ensures that the data is captured in a format that can be used most efficiently. Web designers and developers use client-side JavaScript as one method for validating user-inputted data. The purpose of this project is to build an HTML5 registration form and use JavaScript functions to validate user-inputted data.
+
+A form.
+Screenshot image of what your form should look like when completed.
+This is a screenshot - The image is not clickable.
+
+PROJECT REQUIREMENT
+Create an input from using HTML5 and JavaScript.  The form will validate and collect information form the user and then e-mail the result to your personal e-mail address.
+ 
+Fields	Validation
+Name	
+(DONE)The user is required to enter a first and last name. You must create two text boxes (one for the first name and one for the last name). Neither field must be blank. Include default text in the first and last name fields. 
+Remove the default text once the user selects the field.
+
+(Done)First Name and Last Name Field Types: Alpha only.
+
+(Done)Address	The user is required to enter a valid mailing address. You must create three separate text boxes to gather city, state, and zip code information. The address can not be blank.
+
+Zip Code: Numeric only (5 digits)
+Address Field: Alphanumeric characters
+City: Alpha only
+State: (Selected from a pull down menu) The user must select a state.
+Phone Number	The user must enter a valid 10 digit phone number, including area code.  You must create two text boxes to gather the user's phone number. These fields can not be blank.
+
+Area Code: (3 digits)
+Phone Number: (7 digits)
+E-mail Address	The user must enter a valid e-mail address that follows the standard e-mail convention <name@domain.extension>, where the length of "name" can be up to 64 characters in length, and "domain" may be up to 252 characters in length.
+
+If an invalid e-mail address is entered, the user should receive a message similar to "You have entered an invalid e-mail address".
+Confirm E-mail Address	The user must enter in the exact same e-mail address entered in the previous E-mail Address field. If not, an error message will be generated.
+Meal Preference	The user must select a meal preference from a radio button list (Vegan, Vegetarian, Non-Vegetarian).
+Contact Method	The user must select at least two of four contact methods listed on the form. An error message will display when less than two (zero or one) methods are selected.
+Comments	Optional field for additional comments. Field length (250 characters). This field can be blank.
+Buttons	Function
+Submit	The Submit Button, when clicked, will display all of the errors on the form. If errors exist on the form, the form data will not be e-mailed. Once all errors have been removed AND all of the default text has been replaced, data entered into the form will be transmitted via e-mail. The Submit Button should call the submit () event handler function.
+Reset	The Reset Button will reset all of the fields on the form to a blank state. The Reset Button should call the reset () event handler function.
+1. Use // to document your code by providing comments that explain the purpose of all lines of code you write.
+
+SUBMISSION REQUIREMENTS
+Please complete the following:
+
+1. Host your working registration from online using the Nova Server (provide the URL in your submission).
+2. Submit the HTML files you used to create the registration form to the Project's Assignments Folder.
+3. Write a Project Reflection (see description below).
+
+PROJECT REFLECTION
+Answer the following questions when you submit your assignments files.
+
+1. What issues or challenges did you face completing this project?
+2. Did you complete the Advanced Challenge? If so, which challenge items did you complete?
+Please submit your Project Reflection as a Microsoft Word document or just copy and paste your answers in your Assignments Folder's text box when you submit your assignment along with the rest of the required project files. 
+
+HTML VALIDATION
+Your pages should validate without errors using the W3C HTML Markup Validation Service at http://validator.w3.org.
+How to do this:
+
+1. Publish your pages to the Aloft Web Server.
+2. Go to the W3C validator and paste in the URL to your index.html page
+3. Select the check button.
+
+PROJECT RESOURCES
+This assignment will require you to interact with the DOM. The links below highlight specific concepts and topics that you will need to learn in order to complete this assignment successfully.
+
+1. W3schools.com > JavaScript Forms
+https://www.w3schools.com/js/js_validation.asp
+
+ADVANCED CHALLENGE
+This assignment will require you to interact with the DOM. The links below highlight specific concepts and topics that you will need to learn in order to complete this assignment successfully.
+
+1. Add at least 2 additional fields and validate them.
+2. Add a company logo at the top of the form.
+
+PROJECT RESOURCES
+The following resources may be helpful in completing this assignment:
+1. Copyright and Fair Use in the UMGC Online or Face-to-Face Classroom (web page).
+
+resources
+https://www.javascripttutorial.net/javascript-dom/javascript-radio-button/   radio Buttons
+
